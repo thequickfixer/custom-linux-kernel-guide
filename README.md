@@ -2,6 +2,7 @@
 
 - This guide is only useful for those with grub at the moment.
 - DO NOT USE THIS GUIDE IF YOU DON'T KNOW WHAT YOU'RE DOING, YOU MAY BRICK YOUR LINUX INSTALLATION!
+- DO NOT DELETE A BACKUP KERNEL! ALWAYS HAVE ONE!
 
 # Dependancies
 
