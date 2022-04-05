@@ -1,6 +1,7 @@
 # Welcome to the guide!
 
 - This guide is only useful for those with grub at the moment.
+- DO NOT USE THIS GUIDE IF YOU DON'T KNOW WHAT YOU'RE DOING, YOU MAY BRICK YOUR LINUX INSTALLATION.
 
 # Dependancies
 
@@ -10,7 +11,8 @@
 
 # Prepare for the installation
 
-Choose one of these kernels:
+make sure you have your /boot dir properly mounted before proceeding.
 
-- Linux-zen
-- Linux
+wget the kernel version of your choosing...
+
+```https://mirrors.edge.kernel.org/pub/linux/kernel/v5.x/linux-<linux-version-here>.tar.xz```
