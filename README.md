@@ -6,11 +6,12 @@
 # Dependancies
 
 - sudo / doas (replace sudo with doas if using doas)
-- cmake
-- dracut
-- zstd
-- tar
-- grub
+- cmake (for building)
+- dracut (for initramfs)
+- zstd (to increase compatibility)
+- tar (to extract)
+- grub (required to be installed)
+- gcc (required)
 
 # Prepare for the installation
 
@@ -41,5 +42,11 @@ cd /usr/src/linux-<version>
 sudo patch -p1 < /<directory containing patches>/<yourpatch>.patch
 ```
 
-# Configuring the kernel
+# Installation
 
+Configure the kernel (Optional but highly recommended):
+```
+sudo make menuconfig
+```
+
+Modi
