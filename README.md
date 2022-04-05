@@ -5,8 +5,10 @@
 
 # Dependancies
 
+- sudo / doas (replace sudo with doas if using doas)
 - cmake
 - dracut
+- zstd
 - tar
 - grub
 
@@ -28,4 +30,16 @@ sudo tar -zxf linux-<version>.tar.gz -C /usr/src/linux-<version>
 ```
 
 # Install patches into linux src manually
+
+To patch the kernel with your specific patches:
+
+```
+cd /usr/src/linux-<version>
+```
+
+```
+sudo patch -p1 < /<directory containing patches>/<yourpatch>.patch
+```
+
+# Configuring the kernel
 
