@@ -72,7 +72,7 @@ sudo make modules_install && sudo make install
 
 Generate initramfs:
 ```
-sudo dracut --hostonly --force
+sudo dracut --hostonly --force --kver <version>
 ```
 
 Re-generate the grub-config:
