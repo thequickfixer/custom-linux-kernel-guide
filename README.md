@@ -33,7 +33,7 @@ sudo tar -xvf linux-<version>.tar.gz -C /usr/src/
 
 # Install patches into linux src manually
 
-Please make sure that the patches are for your specific kernel version or they will not work.
+Please make sure that the patches are for your specific kernel version or they will make your kernel unable to boot.
 
 To patch the kernel with your specific patches:
 
