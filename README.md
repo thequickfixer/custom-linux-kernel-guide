@@ -8,4 +8,7 @@
 - dracut
 - grub
 
+# Kernels to choose from:
 
+- Linux-zen
+- Linux
