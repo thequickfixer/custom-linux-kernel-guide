@@ -14,7 +14,7 @@
 
 make sure you have your ```/boot``` directory properly mounted before proceeding.
 
-wget the kernel version of your choosing...
+wget the kernel version of your choosing... from the v5.x directory.
 
 ```https://mirrors.edge.kernel.org/pub/linux/kernel/v5.x/linux-<version>.tar.xz```
 
