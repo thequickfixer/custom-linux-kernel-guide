@@ -1,7 +1,7 @@
 # Welcome to the guide!
 
 - This guide is only useful for those with grub at the moment.
-- DO NOT USE THIS GUIDE IF YOU DON'T KNOW WHAT YOU'RE DOING, YOU MAY BRICK YOUR LINUX INSTALLATION.
+- DO NOT USE THIS GUIDE IF YOU DON'T KNOW WHAT YOU'RE DOING, YOU MAY BRICK YOUR LINUX INSTALLATION!
 
 # Dependancies
 
@@ -49,4 +49,7 @@ Configure the kernel (Optional but highly recommended):
 sudo make menuconfig
 ```
 
-Modi
+Build the kernel
+```
+sudo make -j<number of physical cpu's>
+```
