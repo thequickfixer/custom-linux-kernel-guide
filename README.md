@@ -5,7 +5,7 @@
 
 # Dependancies
 
-- ```sudo``` / doas (replace sudo with doas if using doas)
+- ```sudo``` / ```doas``` (replace sudo with doas if using doas)
 - ```cmake``` (for building)
 - ```dracut``` (for initramfs)
 - ```zstd``` (to increase compatibility)
