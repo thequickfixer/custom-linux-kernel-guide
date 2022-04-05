@@ -10,5 +10,7 @@
 
 # Prepare for the installation
 
+Choose one of these kernels:
+
 - Linux-zen
 - Linux
