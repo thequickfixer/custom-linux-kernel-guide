@@ -73,5 +73,5 @@ sudo grub-mkconfig -o /boot/grub/grub.cfg
 
 Remove the kernel tar:
 ```
-sudo rm -rf ~/linux-<version>.tar.xz
+sudo rm ~/linux-<version>.tar.xz
 ```
