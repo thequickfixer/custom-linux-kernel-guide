@@ -63,6 +63,11 @@ Build the kernel:
 sudo make -j<number of physical cpu's>
 ```
 
+Install the modules and install the built kernel:
+```
+doas make modules_install && doas make install
+```
+
 # Finishing up the installation
 
 Generate initramfs:
