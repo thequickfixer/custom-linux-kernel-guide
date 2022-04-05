@@ -17,7 +17,7 @@
 
 # Prepare for the installation
 
-make sure you have your ```/boot``` directory properly mounted before proceeding.
+make sure you have your ```/boot``` directory properly mounted before proceeding (usually it is).
 
 wget the kernel version of your choosing... from the v5.x directory.
 
