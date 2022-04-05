@@ -8,7 +8,6 @@
 - cmake
 - dracut
 - tar
-- 
 - grub
 
 # Prepare for the installation
