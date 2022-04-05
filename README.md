@@ -28,7 +28,7 @@ wget https://mirrors.edge.kernel.org/pub/linux/kernel/v5.x/linux-<version>.tar.x
 prepare the source code files:
 
 ```
-sudo tar -xvf linux-<version>.tar.gz -C /usr/src/
+sudo tar -xvf linux-<version>.tar.xz -C /usr/src/
 ```
 
 # Install patches into linux src manually
