@@ -27,7 +27,7 @@ prepare the source code files:
 sudo mkdir /usr/src/linux-<version>
 ```
 ```
-sudo tar -zxf linux-<version>.tar.gz -C /usr/src/linux-<version>
+sudo tar -xvf linux-<version>.tar.gz -C /usr/src/linux-<version>
 ```
 
 # Install patches into linux src manually
