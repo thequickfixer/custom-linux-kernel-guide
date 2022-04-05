@@ -49,7 +49,26 @@ Configure the kernel (Optional but highly recommended):
 sudo make menuconfig
 ```
 
-Build the kernel
+Build the kernel:
 ```
 sudo make -j<number of physical cpu's>
+```
+
+# Finishing up the installation
+
+Generate initramfs:
+```
+sudo dracut --hostonly --force
+```
+
+Re-generate the grub-config:
+```
+sudo grub-mkconfig -o /boot/grub/grub.cfg
+```
+
+# Cleaning up
+
+Remove the kernel tar:
+```
+sudo rm -rf ~/linux-<version>.tar.xz
 ```
