@@ -47,6 +47,11 @@ sudo patch -p1 < /<directory containing patches>/<yourpatch>.patch
 
 # Installation
 
+If you've skipped patching the linux kernel:
+```
+cd /usr/src/linux-<version>
+```
+
 Configure the kernel (Optional but highly recommended):
 ```
 sudo make menuconfig
