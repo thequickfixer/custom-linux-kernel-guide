@@ -5,13 +5,13 @@
 
 # Dependancies
 
-- sudo / doas (replace sudo with doas if using doas)
-- cmake (for building)
-- dracut (for initramfs)
-- zstd (to increase compatibility)
-- tar (to extract)
-- grub (required to be installed)
-- gcc (required)
+- ```sudo``` / doas (replace sudo with doas if using doas)
+- ```cmake``` (for building)
+- ```dracut``` (for initramfs)
+- ```zstd``` (to increase compatibility)
+- ```tar``` (to extract)
+- ```grub``` (required to be installed)
+- ```gcc``` (required)
 
 # Prepare for the installation
 
