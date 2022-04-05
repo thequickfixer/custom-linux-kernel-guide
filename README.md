@@ -24,10 +24,7 @@ wget the kernel version of your choosing... from the v5.x directory.
 prepare the source code files:
 
 ```
-sudo mkdir /usr/src/linux-<version>
-```
-```
-sudo tar -xvf linux-<version>.tar.gz -C /usr/src/linux-<version>
+sudo tar -xvf linux-<version>.tar.gz -C /usr/src/
 ```
 
 # Install patches into linux src manually
