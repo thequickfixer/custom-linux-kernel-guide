@@ -18,6 +18,7 @@
 # Understanding
 
 ```/usr/src/``` - Folder of different linux kernel(s) folders containing source code.
+
 ```~``` - Your user folder.
 
 # Prepare for the installation
