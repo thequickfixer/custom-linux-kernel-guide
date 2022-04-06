@@ -86,7 +86,7 @@ Remove the kernel tar:
 sudo rm ~/linux-<version>.tar.xz
 ```
 
-Remove ```linux-<version>``` from ```/usr/src/``` for whatever reason (Not recommended at ALL. That is the source to build your kernel with your custom patches and config, be very careful about the ```rm -rf``` and directory):
+Remove ```linux-<version>``` from ```/usr/src/``` for whatever reason (Not recommended at ALL. That is the source to build your kernel with your custom patches and config, be very careful about the ```rm -rf``` and directory.. seriously don't do this):
 ```
 sudo rm -rf /usr/src/linux-<version>
 ```
