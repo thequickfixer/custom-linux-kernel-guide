@@ -15,9 +15,14 @@
 - ```grub``` (required to be installed)
 - ```gcc``` (required)
 
+# Understanding
+
+```/usr/src/``` - Folder of different linux kernel(s) folders containing source code.
+```~``` - Your user folder.
+
 # Prepare for the installation
 
-make sure you have your ```/boot``` directory properly mounted before proceeding (usually it is).
+make sure you have your ```/boot``` directory properly mounted before proceeding (usually it is)
 
 wget the kernel version of your choosing... from the v5.x directory.
 
