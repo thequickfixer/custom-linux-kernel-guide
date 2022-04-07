@@ -37,6 +37,8 @@ prepare the source code files:
 sudo tar -xvf linux-<version>.tar.xz -C /usr/src/
 ```
 
+Saving linux-<version>.tar.xz is probably a good idea incase patches etc.. do not work for your kernel.
+
 # Install patches into linux src manually
 
 Please make sure that the patches are for your specific kernel version (5.15.xx for example) otherwise your kernel will be unable to boot.
