@@ -21,6 +21,8 @@
 
 ```~``` - Your user folder.
 
+When redoing the kernel using ```dracut``` and ```grub-mkconfig``` the kernel will not be replaced, instead it'll be renamed to old so that you'll have only one back up.
+
 # Prepare for the installation
 
 make sure you have your ```/boot``` directory properly mounted before proceeding (usually it is)
